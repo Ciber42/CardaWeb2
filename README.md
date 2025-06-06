@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+Este projeto é uma tela inicial para um e-commerce chamada **Carda**, desenvolvida como atividade avaliativa para a disciplina de **Programação Web 2**.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A aplicação consome produtos da [FakeStore API](https://fakestoreapi.com)
 
-## Available Scripts
+---
+- ReactJS (com Hooks)
+- CSS personalizado e responsivo (mobile-first)
+- API pública REST (`https://fakestoreapi.com`)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 📸 Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Exibe pelo menos **10 produtos** da API.
+- Mostra: **nome, imagem, preço e categoria** de cada produto.
+- Interface **responsiva** e organizada.
+- Cabeçalho fixo com navegação.
+- O título **"Carda"** rola a página suavemente até o topo ao ser clicado.
+- Mensagem de **carregamento** e **tratamento de erros** ao consumir a API.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📁 Estrutura de Pastas
+# 🛒 Carda - Tela Inicial de E-commerce com ReactJS
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Este projeto é uma tela inicial para um e-commerce chamada **Carda**, desenvolvida como atividade avaliativa para a disciplina de **Programação Web 2**.
 
-### `npm run build`
+A aplicação consome produtos da [FakeStore API](https://fakestoreapi.com) e exibe os itens com nome, imagem, preço e categoria, de forma **responsiva**, adaptada para celulares, tablets e desktops.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- ReactJS (com Hooks)
+- CSS personalizado e responsivo (mobile-first)
+- API pública REST (`https://fakestoreapi.com`)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📸 Funcionalidades
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Exibe pelo menos **10 produtos** da API.
+- Mostra: **nome, imagem, preço e categoria** de cada produto.
+- Interface **responsiva** e organizada.
+- Cabeçalho fixo com navegação.
+- O título **"Carda"** rola a página suavemente até o topo ao ser clicado.
+- Mensagem de **carregamento** e **tratamento de erros** ao consumir a API.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📁 Estrutura de Pastas
 
-## Learn More
+src/
+│
+├── components/
+│ └── ListaProdutos.js # Componente que lista os produtos
+│
+├── assets/
+│ └── fonts/ # Fontes personalizadas
+│
+├── App.js
+├── App.css
+├── index.js
+├── index.css
+├── setupTests.js
+└── reportWebVitals.js
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## ⚙️ Como rodar o projeto localmente
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 1. Clone o repositório ou descompacte o projeto:
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/Ciber42/CardaWeb2.git
+Instale o react e o yarn
+npm install
+npm install yarn
+Rode o projeto
+npm start
