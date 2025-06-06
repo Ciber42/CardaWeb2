@@ -1,3 +1,4 @@
+RETIRE A PASTA DO CARDAWEB2 DEPOIS DE COMPACTADA
 ---
 Este projeto é uma tela inicial para atividade avaliativa para a disciplina de Web 2.
 A aplicação consome produtos da [FakeStore API](https://fakestoreapi.com)
